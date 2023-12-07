@@ -11,7 +11,7 @@ const Home = () => {
     useEffect(()=>{
         const typed = new Typed(el.current, {
             strings: ["Joseph", "Agustin", "Navarra"],
-            startDelay: 500,
+            startDelay: 450,
             typeSpeed: 200,
             backDelay: 200,
             backSpeed: 200,
@@ -30,7 +30,7 @@ const Home = () => {
                 </div>
                 <div className='HeaderName'>
                     <h1 className="greetings">
-                    Hi! my name is <span ref={el} className="greetingheader"></span>.
+                    Hi! my name is <span ref={el} className="greetingheader"></span>
                     </h1>
                 </div>
                 <div className='HeaderIntro'>
@@ -40,9 +40,9 @@ const Home = () => {
                 </div>      
                 </div>
                 <p className="Introduction">
-                From De La Salle University aspiring to become a web developer, equipped <br/> 
-                with a solid foundation in the basics of web development. Eager to learn, <br/> 
-                improve, and showcase fast adaptability skills while exploring diverse technology stacks.
+                From De La Salle University aspiring to become a Front-End Web Developer,<br/> 
+                equipped with a solid foundation in the basics of web development. Eager to learn, <br/> 
+                improve, and embracing flexibility across diverse tech stacks.
                 </p>
                 <Button gradientDuoTone="purpleToBlue" className='talkbtn'>Talk to me!</Button>
             </div>
