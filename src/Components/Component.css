@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.navbar{
+    background-color: #161927;
+    height: 10vh;
+
+}
+.navbar img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 1ch;
+    left: 10ch;
+}
+.navcontents a{
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 1ch;
+    top: 30px;
+    left: 125ch;
+}
+.greetings{
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    right: 30ch;
+    top: 10ch;
+}
+.greetings span{
+    font-family: 'Geologica', sans-serif;
+    /*color: #709263;*/
+    font-weight: 900;
+    color: #9DAAA6;
+    font-size: 100px;
+}
+.greetings2{
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    position: absolute;
+    right: 30ch;
+    top:14ch;
+}
+
+.greetings2 span{
+    font-family: 'Geologica', sans-serif;
+    color: #709263;
+    font-weight: 900;
+    color: #9DAAA6;
+    font-size: 70px;
+} 
+
+.HomePic{
+    width: 695px;
+    height: 845px;
+    position: absolute;
+    top: 12ch;
+    left: 90ch;
+}
+.HomeLogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40ch;
+    top: 15ch;
+}
+
+.Introduction{
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    right: 75ch;
+    top: 45ch;
+    margin-left: 18ch;
+}
+
+.greetingheader{
+    background: linear-gradient(to bottom right, #5c348d 20%, #30CFD0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.talkbtn{
+    position: absolute;
+    top: 70ch;
+    left: 45ch;
+}
