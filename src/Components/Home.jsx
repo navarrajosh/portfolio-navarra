@@ -22,7 +22,7 @@ const Home = () => {
     })
 
     return (  
-        <div className="homePage">
+        <div className="homeContainer">
             <img src={images.HomePicture} alt="HomePic" className="HomePic"/>
             <div className="grid grid-cols-1 gap-2">
                 <div>
