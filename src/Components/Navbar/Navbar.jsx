@@ -1,15 +1,14 @@
-import './Component.css';
-import images from '../Logo/Image';
+import './Navbar.css';
+import images from '../../Logo/Image';
 
 const Navbar = () => {
     return ( 
-    <nav  nav className = "navbar" >
-        {/* <img src={images.AshLogo} alt="" /> */}
+    <div className = "navbar" >
         <div className = "navcontents" >
             <a href = "/" > Home </a> 
             <a href = "/Skills" > Skills </a> 
         </div> 
-    </nav>
+    </div>
     );
 }
 
