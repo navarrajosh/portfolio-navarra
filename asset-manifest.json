@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-navarra/static/css/main.3cde2856.css",
-    "main.js": "/portfolio-navarra/static/js/main.5daff839.js",
+    "main.js": "/portfolio-navarra/static/js/main.aba0c842.js",
     "static/js/787.b7b4686e.chunk.js": "/portfolio-navarra/static/js/787.b7b4686e.chunk.js",
     "static/media/Home.png": "/portfolio-navarra/static/media/Home.13db5857c8250f6f5f09.png",
     "static/media/Home-2.png": "/portfolio-navarra/static/media/Home-2.0fdc799eeafb9ae6d93d.png",
@@ -17,11 +17,11 @@
     "static/media/logo-gradient.png": "/portfolio-navarra/static/media/logo-gradient.bc6c3dc43117ddef74cd.png",
     "index.html": "/portfolio-navarra/index.html",
     "main.3cde2856.css.map": "/portfolio-navarra/static/css/main.3cde2856.css.map",
-    "main.5daff839.js.map": "/portfolio-navarra/static/js/main.5daff839.js.map",
+    "main.aba0c842.js.map": "/portfolio-navarra/static/js/main.aba0c842.js.map",
     "787.b7b4686e.chunk.js.map": "/portfolio-navarra/static/js/787.b7b4686e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cde2856.css",
-    "static/js/main.5daff839.js"
+    "static/js/main.aba0c842.js"
   ]
 }
