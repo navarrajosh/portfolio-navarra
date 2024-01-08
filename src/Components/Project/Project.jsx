@@ -14,7 +14,7 @@ const items = [
     { id:2,
         title:"AMS",
         img: portfolioimages.StartekSystem,
-        link:"https://www.figma.com/file/kiBl291U5WkVwwMUUe5b3c/High-Fidelity-Prototype?type=design&mode=design&t=xHxpfpdsYdqTgSov-1",
+        link:"https://www.figma.com/file/8Dk33AkUS1E4kss9JmdTsN/Startek-AMS?type=design&mode=design&t=MUh1xfPDk1IkUhxy-1",
         role: "BackEnd & Frontend",
         description:"Asset Mangement System Wireframe created in Figma, which have a brief layout of the website."
     },
@@ -33,9 +33,9 @@ const items = [
         description:"Stumble is a Wireframe Project of a Mobile Application, that presents the whole layout of the mobile application."
     },
     { id:5,
-        title:"Switchboard",
+        title:"Taiku",
         img: portfolioimages.ECOM,
-        link:"https://www.figma.com/file/4FoAH5ENswMPNsImJxTKbm/ITSRAQA-Switchboard?type=design&mode=design&t=xHxpfpdsYdqTgSov-1",
+        link:"https://www.figma.com/file/4FoAH5ENswMPNsImJxTKbm/Taiku?type=design&mode=design&t=MUh1xfPDk1IkUhxy-1",
         role: "BackEnd & Frontend",
         description:"Switchboard is a High-Fidelity Prototype Project of an E-Commerce Sports Website, which presents the different layouts of the website in terms of web browser and on a mobile application."
     },
