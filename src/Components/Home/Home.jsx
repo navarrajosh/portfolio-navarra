@@ -44,9 +44,9 @@ const Home = () => {
         const typed = new Typed(el.current, {
             strings: ["Joseph", "Agustin", "Navarra"],
             startDelay: 450,
-            typeSpeed: 200,
+            typeSpeed: 250,
             backDelay: 200,
-            backSpeed: 200,
+            backSpeed: 250,
             smartBackspace: false,
             showCursor: false,
             loop: true,
@@ -57,7 +57,7 @@ const Home = () => {
         <div className="homeContainer">
             <div className="wrapper">
             <motion.div className="textContainer" variants={Greeting} initial="initial" animate="animate"  >
-            <motion.img  variants={Greeting} src={images.gradientlogo} alt=""  className="HomeLogo"/>
+            <motion.img  variants={Greeting} src={images.WhiteLogo} alt=""  className="HomeLogo"/>
                 <motion.h1 variants={Greeting}>
                     Hi! my name is <span ref={el} className="greetingheader"></span>
                 </motion.h1>
@@ -69,15 +69,15 @@ const Home = () => {
                 equipped with a solid foundation in the basics of web development. Eager to learn, <br/> 
                 improve, and embracing flexibility across diverse tech stacks.
                 </motion.p>
-                <Button gradientDuoTone="purpleToBlue" className='talkbtn'>Talk to me!</Button>
+                <Button color="light" className="TalkBtn">Talk to me!</Button>
             </motion.div>
             
             </div>
-            <motion.div variants={slidingGreeting} animate="animate" className="slidingtext">
+             <motion.div variants={slidingGreeting} animate="animate" className="slidingtext">
                 Front End Web Developer
             </motion.div>
             <div className="HomePic">
-                <img src={images.HomePicture} alt="HomePic" className="HomePic"/>
+                <img src={images.HomePicture2} alt="HomePic" className="HomePic"/>
             </div>
         </div>
     );

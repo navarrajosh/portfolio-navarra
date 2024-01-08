@@ -15,9 +15,7 @@ function App() {
     <section >
     <Parallax/>
     </section>
-    <section >
     <Project/>
-    </section>
     <section>
     <Skills/>
     </section>

@@ -16,32 +16,30 @@
     gap: 40px;
 }
 .greetingheader{
-    background: linear-gradient(to bottom right, #5c348d 20%, #30CFD0 100%);
+    background: #ffffff ;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     font-weight: 900;
     font-size: 75px;
 }
 .wrapper{
-    max-width: 1366px;
+    max-width: 1366px;  
     height: 100%;
     margin: auto;
     z-index: 1;
 }
 
 .HomePic{
-    width: 695px;
+    width: 1400px;
     height: 890px;
     position: absolute;
     top: 0;
-    right: 0;
-    margin-right: 10ch;
+    margin-left: 30ch;
     z-index: 2;
 }
 .HomeLogo{
     width: 200px;
     height: 200px;
-    margin-left:7ch;
 }
 
 .Introduction{
@@ -62,7 +60,7 @@ white-space: nowrap;
 color: rgba(117, 116, 116, 0.171);
 }
 
-.talkbtn{
+.TalkBtn{
     position: absolute;
     margin-top: 1ch;
 }

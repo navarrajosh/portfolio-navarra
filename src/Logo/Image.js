@@ -7,6 +7,7 @@ const images = {
     AshLogo: require('./logo-ashgray.png'),
     gradientlogo: require('./logo-gradient.png'),
     HomePicture: require('./Home.png'),
+    HomePicture2: require('./Home-2.png'),
     ParallaxSkies: require('./Skies.png'),
     ParallaxBase: require('./Base.png'),
 
