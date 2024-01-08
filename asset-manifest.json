@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-navarra/static/css/main.11188be8.css",
-    "main.js": "/portfolio-navarra/static/js/main.ba79469d.js",
+    "main.css": "/portfolio-navarra/static/css/main.3cde2856.css",
+    "main.js": "/portfolio-navarra/static/js/main.5daff839.js",
     "static/js/787.b7b4686e.chunk.js": "/portfolio-navarra/static/js/787.b7b4686e.chunk.js",
     "static/media/Home.png": "/portfolio-navarra/static/media/Home.13db5857c8250f6f5f09.png",
+    "static/media/Home-2.png": "/portfolio-navarra/static/media/Home-2.0fdc799eeafb9ae6d93d.png",
+    "static/media/Homepage.png": "/portfolio-navarra/static/media/Homepage.df04dbf421ba25358400.png",
+    "static/media/CCAPDEV-PORTFOLIO.png": "/portfolio-navarra/static/media/CCAPDEV-PORTFOLIO.2b71d4f666e7005bf59a.png",
     "static/media/Skies.png": "/portfolio-navarra/static/media/Skies.01f0e65cf05b683ba922.png",
     "static/media/Base.png": "/portfolio-navarra/static/media/Base.c8a2c8fd24e09e6e490f.png",
+    "static/media/MIZUMIZU FIGMA.png": "/portfolio-navarra/static/media/MIZUMIZU FIGMA.1a5502318253ebfb2e1e.png",
+    "static/media/KiloWhat Figma.png": "/portfolio-navarra/static/media/KiloWhat Figma.0b01665670f98c5d37b7.png",
+    "static/media/Stumble Figma.png": "/portfolio-navarra/static/media/Stumble Figma.6e8c88b0232500382c0a.png",
+    "static/media/Startek - project.png": "/portfolio-navarra/static/media/Startek - project.51303c00ee7d82af1113.png",
+    "static/media/ASM.png": "/portfolio-navarra/static/media/ASM.7875cc88c64b6e616931.png",
     "static/media/logo-gradient.png": "/portfolio-navarra/static/media/logo-gradient.bc6c3dc43117ddef74cd.png",
     "index.html": "/portfolio-navarra/index.html",
-    "main.11188be8.css.map": "/portfolio-navarra/static/css/main.11188be8.css.map",
-    "main.ba79469d.js.map": "/portfolio-navarra/static/js/main.ba79469d.js.map",
+    "main.3cde2856.css.map": "/portfolio-navarra/static/css/main.3cde2856.css.map",
+    "main.5daff839.js.map": "/portfolio-navarra/static/js/main.5daff839.js.map",
     "787.b7b4686e.chunk.js.map": "/portfolio-navarra/static/js/787.b7b4686e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11188be8.css",
-    "static/js/main.ba79469d.js"
+    "static/css/main.3cde2856.css",
+    "static/js/main.5daff839.js"
   ]
 }
