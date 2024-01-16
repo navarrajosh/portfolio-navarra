@@ -8,21 +8,21 @@ const items = [
         title:"Portfolio",
         img: portfolioimages.CCAPDEVPORT,
         link:"https://github.com/navarrajosh/CCAPPDEV-PORTFOLIO.git",
-        role: "BackEnd & Frontend",
+        role: "BackEnd & FrontEnd",
         description:"This portfolio is a project in CCAPDEV, a Web Development Class, which showcase HTML, Bootstrap, CSS, and JavaScript for the Frontend and Backend of the website, along with Firebase as the database."
     },
     { id:2,
         title:"AMS",
         img: portfolioimages.StartekSystem,
         link:"https://www.figma.com/file/8Dk33AkUS1E4kss9JmdTsN/Startek-AMS?type=design&mode=design&t=MUh1xfPDk1IkUhxy-1",
-        role: "BackEnd & Frontend",
+        role: "Designer",
         description:"Asset Mangement System Wireframe created in Figma, which have a brief layout of the website."
     },
     { id:3,
         title:"AMS",
         img: portfolioimages.AMS,
         link:"https://github.com/kou-ai/it-asset-management.git",
-        role: "BackEnd & Frontend",
+        role: "BackEnd & FrontEnd",
         description:"Asset Mangement System is a Web Application that showcase employee's assets, add, edit, delete, and view of employees and assets. The web application is created through Express, Tailwind CSS, NodeJS, and SQL Server."
     },
     { id:4,
@@ -36,22 +36,29 @@ const items = [
         title:"Taiku",
         img: portfolioimages.ECOM,
         link:"https://www.figma.com/file/4FoAH5ENswMPNsImJxTKbm/Taiku?type=design&mode=design&t=MUh1xfPDk1IkUhxy-1",
-        role: "BackEnd & Frontend",
-        description:"Switchboard is a High-Fidelity Prototype Project of an E-Commerce Sports Website, which presents the different layouts of the website in terms of web browser and on a mobile application."
+        role: "Designer",
+        description:"Taiku is a High-Fidelity Prototype Project of an E-Commerce Sports Website, which presents the different layouts of the website in terms of web browser and on a mobile application."
     },
     { id:6,
         title:"KiloWhat",
         img: portfolioimages.KiloWhat,
         link:"https://www.figma.com/file/wCPWzMvpX9ii9xJiBeJjDt/KiloWhat?type=design&mode=design&t=xHxpfpdsYdqTgSov-1",
-        role: "BackEnd & Frontend",
+        role: "Designer",
         description:"KiloWhat is a High-Fidelity Prototype Project. It is a Electricty Tracker Mobile Appliaction that showcase the User Interface of the mobile application as well as its features."
     },
     { id:7,
         title:"MizuMizu",
         img: portfolioimages.MizuMizu,
         link:"https://www.figma.com/file/kiBl291U5WkVwwMUUe5b3c/High-Fidelity-Prototype?type=design&mode=design&t=xHxpfpdsYdqTgSov-1",
-        role: "BackEnd & Frontend",
+        role: "Designer",
         description:"MizuMizu is a High-Fidelity Prototype Project. It is an Aquatic E-commerce Mobile Application, that views the whole User Interface as well as the navigation of the application."
+    },
+    { id:7,
+        title:"Github",
+        img: portfolioimages.Github,
+        link:"https://github.com/navarrajosh",
+        role: "BackEnd & FrontEnd",
+        description:"Github QR to access my other projects."
     },
     
    

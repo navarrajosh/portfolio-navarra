@@ -1,66 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.homeContainer{
-    height: calc(100vh - 100px);
+.homeContainer {
+    height: 100%;
+    max-width: 100%;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(180deg,#161927,#1e5a68);
+    background: linear-gradient(180deg, #161927, #1e5a68);
 }
-.textContainer{
+
+.textContainer {
     font-family: 'Geologica', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 50px;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 4ch;
 }
-.greetingheader{
-    background: #ffffff ;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+
+.greetingheader {
+    background: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 900;
     font-size: 75px;
 }
-.wrapper{
-    max-width: 1366px;  
-    height: 100%;
+
+.wrapper {
+    max-width: 100%;
+    height: auto;
     margin: auto;
     z-index: 1;
 }
 
-.HomePic{
-    width: 1400px;
-    height: 890px;
-    position: absolute;
-    top: 0;
-    margin-left: 30ch;
-    z-index: 2;
-}
-.HomeLogo{
-    width: 200px;
+.HomeLogo {
+    max-width: 200px;
     height: 200px;
+    margin: 0 auto;
 }
 
-.Introduction{
+.Introduction {
     font-family: 'Geologica', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: 100;
-    padding-right: 10ch;
-}
-.slidingtext{
-position: absolute;
-font-size: 40vh;
-font-weight: 700;
-width: 50%;
-bottom: 0;
-white-space: nowrap;
-color: rgba(117, 116, 116, 0.171);
 }
 
-.TalkBtn{
+.slidingtext {
     position: absolute;
-    margin-top: 1ch;
+    font-size: 40vh;
+    font-weight: 700;
+    width: 50%;
+    bottom: 0;
+    white-space: nowrap;
+    color: rgba(117, 116, 116, 0.171);
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 40em) {
+    .textContainer {
+        font-size: 40px;
+    }
+
+    .greetingheader {
+        font-size: 40px;
+    }
+
+    .Introduction {
+        font-size: 23px;
+    }
+
+    .slidingtext {
+        font-size: 20vh;
+        width: 70%;
+    }
 }

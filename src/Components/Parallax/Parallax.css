@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.parallax{
-    background: linear-gradient(180deg,#1e5a68,#161927);
+.parallax {
+    background: linear-gradient(180deg, #1e5a68, #161927);
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Set a fixed height for the parallax section */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 }
-.parallax h1{
+
+.parallax h1 {
     font-size: 100px;
     font-family: 'Geologica', sans-serif;
     font-weight: 700;
@@ -18,25 +19,29 @@
     text-shadow: 5px 10px #161927;
     z-index: 2;
 }
-.base{
-    background-image: url("/src/Logo/Base.png");
+
+.base,
+.skies {
     background-size: cover;
     background-position: bottom;
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+.base {
+    background-image: url("/src/Logo/Base.png");
     z-index: 3;
 }
 
-.skies{
+.skies {
     background-image: url("/src/Logo/Skies.png");
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 100%;
-    position: absolute;
     z-index: 1;
 }
 
-
-
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .parallax h1 {
+        font-size: 50px; /* Adjust font size for smaller screens */
+    }
+}

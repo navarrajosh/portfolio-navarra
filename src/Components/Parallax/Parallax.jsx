@@ -2,7 +2,7 @@ import { useRef } from "react";
 import "./Parallax.css";
 import {motion, useScroll, useTransform} from "framer-motion";
 
-const Parallax = ({}) => {
+const Parallax = ({type}) => {
 
     const ref = useRef()
     const {scrollYProgress} = useScroll({
@@ -16,7 +16,7 @@ const Parallax = ({}) => {
     return (  
         <div ref={ref} className="parallax">
             <motion.h1 style={{y:ytext}}>
-                Projects    
+                {type==="projects" ? "Projects" : "Skills"}    
             </motion.h1>
             <motion.div style={{y:ybg}} className="base"></motion.div>
             <motion.div style={{x:ybg}} className="skies"></motion.div>

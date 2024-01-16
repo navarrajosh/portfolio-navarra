@@ -1,7 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.skillsContainer{
-    background: linear-gradient(180deg,#161927, #1e5a68);
+.skill {
+    background: linear-gradient(180deg, #161927, #1e5a68);
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    padding: 0 0 30px 0; /* Adjusted padding for smaller screens */
+    position: relative;
+    font-family: 'Geologica', sans-serif;
+}
+
+.skillsContainer {
+    border-radius: 32px; /* Adjusted border-radius for smaller screens */
+    padding-top: 15vh;
+    padding-left: 15vw;
+    text-align: center;
+}
+
+.skillsContainer h2 {
+    font-size: 36px; /* Adjusted font size for smaller screens */
+    font-weight: 700;
+    color: #fff;
+}
+
+.skillsContainer p {
+    color: #888888;
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    letter-spacing: 0.5px; /* Adjusted letter-spacing for smaller screens */
+    line-height: 1.5em;
+    margin: 14px 0 30px 0;
+}
+
+.skillslider {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skillslider .skills img {
+    width: 100%; /* Adjusted width for responsiveness */
+    max-width: 300px; /* Set a maximum width for images */
+    margin: 0 auto 15px auto;
+}
+
+.skillslider .skills h5 {
+    color: #fff;
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    font-weight: 400;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .skillsContainer {
+        padding-top: 25vh;
+        padding-right: 5vh;
+    }
+
+    .skillsContainer h2 {
+        font-size: 24px;
+    }
+
+    .skillsContainer p {
+        font-size: 14px;
+        margin: 14px 0 20px 0;
+    }
+
+    .skillslider .skills img {
+        max-width: 200px;
+    }
+
+    .skillslider .skills h5 {
+        font-size: 16px;
+    }
 }

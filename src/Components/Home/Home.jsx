@@ -69,16 +69,12 @@ const Home = () => {
                 equipped with a solid foundation in the basics of web development. Eager to learn, <br/> 
                 improve, and embracing flexibility across diverse tech stacks.
                 </motion.p>
-                <Button color="light" className="TalkBtn">Talk to me!</Button>
             </motion.div>
             
             </div>
              <motion.div variants={slidingGreeting} animate="animate" className="slidingtext">
                 Front End Web Developer
             </motion.div>
-            <div className="HomePic">
-                <img src={images.HomePicture2} alt="HomePic" className="HomePic"/>
-            </div>
         </div>
     );
 }

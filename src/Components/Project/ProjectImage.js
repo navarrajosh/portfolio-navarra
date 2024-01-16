@@ -6,6 +6,7 @@ const portfolioimages = {
     StartekSystem: require('./Project Images/Startek - project.png'),
     AMS: require('./Project Images/ASM.png'),
     Stumble: require('./Project Images/Stumble Figma.png'),
+    Github: require('./Project Images/Github.png'),
 
 }
 
