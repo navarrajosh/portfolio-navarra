@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-navarra/static/css/main.3cde2856.css",
-    "main.js": "/portfolio-navarra/static/js/main.aba0c842.js",
+    "main.css": "/portfolio-navarra/static/css/main.a65c9b50.css",
+    "main.js": "/portfolio-navarra/static/js/main.8c337b67.js",
     "static/js/787.b7b4686e.chunk.js": "/portfolio-navarra/static/js/787.b7b4686e.chunk.js",
     "static/media/Home.png": "/portfolio-navarra/static/media/Home.13db5857c8250f6f5f09.png",
     "static/media/Home-2.png": "/portfolio-navarra/static/media/Home-2.0fdc799eeafb9ae6d93d.png",
@@ -14,14 +14,26 @@
     "static/media/Stumble Figma.png": "/portfolio-navarra/static/media/Stumble Figma.6e8c88b0232500382c0a.png",
     "static/media/Startek - project.png": "/portfolio-navarra/static/media/Startek - project.51303c00ee7d82af1113.png",
     "static/media/ASM.png": "/portfolio-navarra/static/media/ASM.7875cc88c64b6e616931.png",
+    "static/media/60.png": "/portfolio-navarra/static/media/60.50ba41ea45195c73b0f2.png",
+    "static/media/90.png": "/portfolio-navarra/static/media/90.932d5e10c4a805ce6cc7.png",
+    "static/media/95.png": "/portfolio-navarra/static/media/95.1d4032a2975d3b4125da.png",
+    "static/media/80.png": "/portfolio-navarra/static/media/80.27c7e67b38f149aec878.png",
+    "static/media/85.png": "/portfolio-navarra/static/media/85.d1648203e8d36ef22a18.png",
+    "static/media/50.png": "/portfolio-navarra/static/media/50.a6b1415809db026d5f71.png",
+    "static/media/70.png": "/portfolio-navarra/static/media/70.bc9f2d3092983226bab0.png",
+    "static/media/75.png": "/portfolio-navarra/static/media/75.4376ab6ac2afca1981fe.png",
+    "static/media/Github.png": "/portfolio-navarra/static/media/Github.f20db1edbe21b5985e97.png",
     "static/media/logo-gradient.png": "/portfolio-navarra/static/media/logo-gradient.bc6c3dc43117ddef74cd.png",
+    "static/media/revicons.eot": "/portfolio-navarra/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio-navarra/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio-navarra/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio-navarra/index.html",
-    "main.3cde2856.css.map": "/portfolio-navarra/static/css/main.3cde2856.css.map",
-    "main.aba0c842.js.map": "/portfolio-navarra/static/js/main.aba0c842.js.map",
+    "main.a65c9b50.css.map": "/portfolio-navarra/static/css/main.a65c9b50.css.map",
+    "main.8c337b67.js.map": "/portfolio-navarra/static/js/main.8c337b67.js.map",
     "787.b7b4686e.chunk.js.map": "/portfolio-navarra/static/js/787.b7b4686e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cde2856.css",
-    "static/js/main.aba0c842.js"
+    "static/css/main.a65c9b50.css",
+    "static/js/main.8c337b67.js"
   ]
 }
